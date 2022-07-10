@@ -1,0 +1,12 @@
+const funcoes = require('./funcoes');
+//console.log(funcoes.buscar(17));
+//console.log(funcoes.listar());
+// (funcoes.adicionar(   {"nome": "Bob", "castrado": true, "peso": 3, "sexo": "m", "dataNascimento": "2020-07-25"}) );
+ //console.log(funcoes.listar());
+// console.log(funcoes.descrever(5));
+//console.log(funcoes.vacinar(13, "antirrábica", "2022-07-09"));
+//console.log(funcoes.atribuirServico(19,"banho","2022-07-09"));
+//console.log(funcoes.descrever(17));
+// console.log(funcoes.listar());
+ //console.log(funcoes.remover(19));
+  //console.log(funcoes.listar());

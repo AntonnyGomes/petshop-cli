@@ -1,6 +1,6 @@
 [
     {
-        "id":1,
+        "id": 1,
         "nome": "João Grilo",
         "castrado": true,
         "dataDeNascimento": "2020-08-21",
@@ -32,7 +32,7 @@
         ]
     },
     {
-        "id":2,
+        "id": 2,
         "nome": "Gertrudes",
         "castrado": false,
         "dataDeNascimento": "2015-08-10",
@@ -47,7 +47,7 @@
         "servicos": []
     },
     {
-        "id":3,
+        "id": 3,
         "nome": "Bronto",
         "castrado": true,
         "dataDeNascimento": "2016-10-19",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id":4,
+        "id": 4,
         "nome": "Ataúlfo",
         "sexo": "m",
         "peso": 10,
@@ -82,7 +82,7 @@
         "servicos": []
     },
     {
-        "id":5,
+        "id": 5,
         "nome": "Godofredo",
         "sexo": "m",
         "castrado": true,
@@ -92,7 +92,7 @@
         "servicos": []
     },
     {
-        "id":6,
+        "id": 6,
         "nome": "Clementina",
         "sexo": "f",
         "castrado": false,
@@ -102,12 +102,148 @@
         "servicos": []
     },
     {
-        "id":7,
+        "id": 7,
         "nome": "Cancelado",
         "sexo": "m",
         "castrado": true,
         "dataDeNascimento": "2021-10-13",
         "peso": 1,
+        "vacinas": [],
+        "servicos": []
+    },
+    {
+        "id": 8,
+        "nome": "Azur",
+        "sexo": "m",
+        "castrado": true,
+        "peso": 5
+    },
+    {
+        "id": 9,
+        "nome": "Azur",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": 2020,
+        "peso": 5,
+        "vacinas": [],
+        "servicos": []
+    },
+    {
+        "id": 10,
+        "nome": "Azur",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": 2020,
+        "peso": 5,
+        "vacinas": [
+            {
+                "nome": "antirrabica",
+                "data": "2022-6-8"
+            }
+        ],
+        "servicos": []
+    },
+    {
+        "id": 11,
+        "nome": "Azur",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": 2020,
+        "peso": 5,
+        "vacinas": [
+            {
+                "nome": "antirrabica",
+                "data": "2022-7-8"
+            }
+        ],
+        "servicos": []
+    },
+    {
+        "id": 12,
+        "nome": "Azur",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": 2020,
+        "peso": 5,
+        "vacinas": [],
+        "servicos": [
+            {
+                "nome": "Banho e Tosa",
+                "dataDoServico": "2022-7-8"
+            },
+            {
+                "nome": "Banho e Tosa",
+                "dataDoServico": "2022-7-8"
+            },
+            {
+                "nome": "Banho e Tosa",
+                "dataDoServico": "2022-7-8"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "nome": "Azur",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": 2020,
+        "peso": 5,
+        "vacinas": [
+            {
+                "nome": "antirrabica",
+                "data": "2022-7-8"
+            }
+        ],
+        "servicos": [
+            {
+                "nome": "Banho e Tosa",
+                "data": "2022-7-8"
+            }
+        ]
+    },
+    {
+        "nome": "string",
+        "data": "string",
+        "vacinas": [
+            {
+                "nome": "antirrabica",
+                "data": "2022-07-08T23:12:45.470Z"
+            }
+        ],
+        "servicos": [
+            {
+                "nome": "Banho e Tosa",
+                "data": "2022-07-08T23:12:21.274Z"
+            },
+            {
+                "nome": "Banho e Tosa",
+                "data": "2022-07-08T23:12:45.472Z"
+            }
+        ],
+        "id": 15
+    },
+    {
+        "nome": "Samaumagata",
+        "sexo": "m",
+        "castrado": true,
+        "dataDeNascimento": 1991,
+        "peso": 5,
+        "id": 16,
+        "vacinas": [],
+        "servicos": [
+            {
+                "nome": "Banho e Tosa",
+                "data": "2022-07-08T23:56:52.436Z"
+            }
+        ]
+    },
+    {
+        "nome": "Bob",
+        "castrado": true,
+        "peso": 3,
+        "sexo": "m",
+        "dataNascimento": "2020-07-25",
+        "id": 18,
         "vacinas": [],
         "servicos": []
     }
