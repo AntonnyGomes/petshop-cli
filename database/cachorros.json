@@ -192,6 +192,14 @@
             {
                 "nome": "antirrabica",
                 "data": "2022-7-8"
+            },
+            {
+                "nome": "antirrábica",
+                "data": "2022-07-11T13:49:06.102Z"
+            },
+            {
+                "nome": "antirrábica",
+                "data": "2022-07-11T13:50:48.756Z"
             }
         ],
         "servicos": [
@@ -245,6 +253,19 @@
         "dataNascimento": "2020-07-25",
         "id": 18,
         "vacinas": [],
-        "servicos": []
+        "servicos": [
+            {
+                "nome": "banho",
+                "data": "2022-07-11T13:53:54.692Z"
+            },
+            {
+                "nome": "banho",
+                "data": "2022-jul-09"
+            },
+            {
+                "nome": "banho",
+                "data": "2022-07-09"
+            }
+        ]
     }
 ]

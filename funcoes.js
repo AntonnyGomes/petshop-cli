@@ -2,22 +2,23 @@ const cachorros = require('./database/cachorros.json');
 const fs = require('fs')
 const path = require('path');
 
-
-let funcoes ={
-      
-salvar: function (cachorro){
+function salvar(cachorro){
 
    let arquivo = path.resolve('./database/cachorros.json');
    let json = JSON.stringify(cachorros, null, 4);
    fs.writeFileSync(arquivo, json);
-},
+}
 
-buscar: function(id){
+ function buscar(id){
    let cachorroBuscado = cachorros.find(cachorroBuscado =>{
       return cachorroBuscado.id == id;
    });
    return cachorroBuscado ? cachorroBuscado : `Não existe cachorro com o id ${id}`;
-},
+}
+
+let funcoes ={
+      
+
 
 //buscar()
 
@@ -57,7 +58,7 @@ adicionar: function(cachorro){
 //(adicionar(novoCachorro))
    
 vacinar: (id, nomeDaVacina, dataDaVacina) => {
-      let cachorroBuscado = this.vacinar.buscar(id);
+      let cachorroBuscado = buscar(id);
       dataDaVacina = new Date
       //dataDaVacina = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`
 
@@ -66,7 +67,7 @@ vacinar: (id, nomeDaVacina, dataDaVacina) => {
          }else{
             console.log("Cachorro inexistente");
       }
-         this.salvar()
+         salvar()
    },
    // Testando
 
@@ -74,15 +75,15 @@ vacinar: (id, nomeDaVacina, dataDaVacina) => {
 
  
    atribuirServico: (id, nome, data) =>{
-      let cachorroBuscado = this.buscar(id);
-      data = new Date;
+      let cachorroBuscado = buscar(id);
+      //data = new Date;
       //dataDoServico = `${now.getFullYear()}-${now.getMonth()+1}-${now.getDate()}`
       if (cachorroBuscado.id){
           cachorroBuscado.servicos.push({nome: nome, data: data})
          }else{
          console.log("Cachorro Inexistente")
       }
-      this.salvar()
+      salvar()
     },
 
     // Testando
